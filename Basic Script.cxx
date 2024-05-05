@@ -5,9 +5,9 @@ array<string> inputParametersNames = {};
 array<string> inputParametersUnits = {};
 array<string> inputParametersEnums = {};
 array<double> inputParameters( inputParametersNames.length );
-array<int> inputParametersSteps = {};
 array<double> inputParametersMin = {};
 array<double> inputParametersMax = {};
+array<double> inputParametersDefault = {};
 
 void processBlock(BlockData& data)
 {
@@ -21,4 +21,3 @@ void processBlock(BlockData& data)
 }
 
 void updateInputParametersForBlock(const TransportInfo@ info){}
-
